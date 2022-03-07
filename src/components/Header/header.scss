@@ -4,10 +4,14 @@
  display: flex;
   justify-content: space-around;
   align-items: center;
+  overflow: hidden;
   .header__logo {
-    img {
-      width: 100px;
-      height: 100px;
+    h1 {
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.8rem;
+      letter-spacing: 2px;
+      border-bottom: 2px solid white;
     }
   }
   .topnav {
@@ -16,7 +20,7 @@
       font-family: 'Poppins', sans-serif;
     float: left;
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

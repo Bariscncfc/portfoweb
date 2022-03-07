@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.scss'
-import logo from '../../assets/images/logo.png';
+import logo from '../../assets/images/logo1.png';
 
 
 const Header = () => {
@@ -17,7 +17,7 @@ const Header = () => {
     return (
         <div className="header">
                     <div className="header__logo">
-                <img src={logo} alt=""/>
+                        <h1>BARIŞ CAN ÇİFÇİ</h1>
             </div>
             <div className="topnav" id="Topnav">
                 <a href="#home" >Home</a>
