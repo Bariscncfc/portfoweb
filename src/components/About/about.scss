@@ -1,0 +1,43 @@
+
+
+
+.about {
+  background-color: #f5f6fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  span {
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 4px;
+    margin-top: 3%;
+  }
+  p {
+    color: black;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  .about__desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    span {
+      color: black;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      letter-spacing: 2px;
+    }
+    button {
+      padding:15px 32px;
+      background-color: #f5f6fa;
+      font-weight: 1.2rem;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+  }
+}
