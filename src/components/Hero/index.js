@@ -1,7 +1,6 @@
 import React from "react";
 import './hero.scss'
 import teaser from '../../assets/videos/teaser.mp4';
-import Header from "../Header";
 
 const Hero = () => {
     return(
