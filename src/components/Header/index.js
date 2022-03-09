@@ -21,9 +21,9 @@ const Header = () => {
             </div>
             <div className="topnav" id="Topnav">
                 <a href="#home" >Home</a>
-                <a href="#news">News</a>
-                <a href="#contact">Contact</a>
                 <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
                 <a href="javascript:void(0);" className="icon" onClick={burgerMenuClick}>
                     <i className="fa fa-bars"></i>
                 </a>

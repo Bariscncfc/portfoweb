@@ -1,11 +1,11 @@
 import React from "react";
 import './percentage.scss';
-import {Skills1, Skills2} from "../../../assets/data/data";
+import {Skills} from "../../../assets/data/skills";
 
 const PercentageCircle = ({ percentage }) => {
   return (
     <div className="percentage-circle">
-        {Skills1.map((skill, index) => {
+        {Skills.map((skill, index) => {
             return (
                 <div className="skill">
                 <div className="circle-wrap">
