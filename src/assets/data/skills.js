@@ -1,4 +1,4 @@
-export const Skills1 = [
+export const Skills = [
     {
         "key": 1,
         "title": "HTML5",
