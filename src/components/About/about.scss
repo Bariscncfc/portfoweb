@@ -2,7 +2,8 @@
 
 
 .about {
-  background-color: #f5f6fa;
+  background-color: #f8f9d2;
+  background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,10 +35,17 @@
     button {
       padding:15px 32px;
       background-color: #f5f6fa;
-      font-weight: 1.2rem;
+      font-weight: bold;
       font-family: 'Poppins', sans-serif;
       font-weight: bold;
       letter-spacing: 2px;
     }
+    button:focus,button:hover {
+      background-color: black;
+      color: white;
+      outline: none;
+      transition: background-color 2s ease-out;
+    }
   }
 }
+

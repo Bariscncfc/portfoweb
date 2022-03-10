@@ -1,17 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './header.scss'
 import logo from '../../assets/images/logo1.png';
 
 
 const Header = () => {
 
+    const [isActive, setActive] = useState(false);
+
     const burgerMenuClick = () => {
-        let x = document.getElementById("Topnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
+      setActive(true);
     }
 
     return (
@@ -19,7 +16,7 @@ const Header = () => {
                     <div className="header__logo">
                         <h1>BARIŞ CAN ÇİFÇİ</h1>
             </div>
-            <div className="topnav" id="Topnav">
+            <div className={isActive ? 'topnav responsive': 'topnav'}  id="Topnav">
                 <a href="#home" >Home</a>
                 <a href="#about">About</a>
                 <a href="#projects">Projects</a>
