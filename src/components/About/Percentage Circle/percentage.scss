@@ -73,3 +73,10 @@
     transform: rotate(135deg);
   }
 }
+
+@media screen and (max-width: 768px){
+  .percentage-circle {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -30,7 +30,7 @@ const Contact = () => {
     };
   return (
 
-      <div className="container">
+      <div className="container" id="contact">
           <div className="wrapper animated bounceInLeft">
               <div className="company-info">
                   <h2>Get in touch <br/> with us :</h2>

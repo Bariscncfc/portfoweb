@@ -5,7 +5,7 @@ import PercentageCircle from "./Percentage Circle";
 
 const About = () => {
     return(
-        <div className="about">
+        <div className="about" id="about">
              <span>About Me </span>
             <p>This is the TodoList app v1.0.0. It is part of a React crash course</p>
             <div className="about__desc">
