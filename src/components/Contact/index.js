@@ -35,7 +35,7 @@ const Contact = () => {
               <div className="company-info">
                   <h2>Get in touch <br/> with us :</h2>
                   <p>Fill in the form to download cv</p>
-                  {showBtn == true ? <div className="brochures">
+                  {showBtn === true ? <div className="brochures">
 
                       <a href="/"download="Barış Can Çifçi Cv" className="download-btn">CV</a>
                   </div> : null}
